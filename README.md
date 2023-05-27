@@ -66,7 +66,7 @@ add state
 
 To add state to the Bevy example for handling touch events, you can introduce a custom component to track the current state of the touch. Here's an updated version of the code that includes a TouchState component:
 
-```
+```rust
 use bevy::prelude::*;
 use bevy::app::Events;
 use bevy::app::EventReader;
