@@ -12,7 +12,7 @@ cd bevy_handle_touches
 
 > generate touch event in bevy for iOS
 
-In the Bevy game engine, you can generate touch events for iOS using the ``TouchEvent`` struct and the input resource. Here's an example of how you can generate touch events in Bevy for iOS:
+In the Bevy game engine, you can generate touch events for iOS using the ```TouchEvent``` struct and the input resource. Here's an example of how you can generate touch events in Bevy for iOS:
 
 ```rust
 use bevy::prelude::*;
