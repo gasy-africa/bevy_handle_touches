@@ -49,3 +49,13 @@ fn handle_touches(
     }
 }
 ```
+
+This example sets up a basic Bevy application and includes a system `handle_touches` that processes touch events. The `TouchEvent` struct contains information about the touch event, such as its phase (started, moved, or ended) and the position of the touch.
+
+Make sure you have the `bevy` and `bevy_ios` crates in your dependencies section of `Cargo.toml`:
+
+```toml
+[dependencies]
+bevy = "0.5"
+bevy_ios = "0.5"
+```
